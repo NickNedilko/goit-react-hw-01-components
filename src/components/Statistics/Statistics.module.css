@@ -1,5 +1,4 @@
 .section{
-  
     padding: 20px 0;
 }
 
@@ -24,4 +23,5 @@
     flex-direction: column;
     border: 1px solid black;
     text-align: center;
+    
 }

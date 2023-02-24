@@ -23,7 +23,7 @@ function TransactionHistory({items}){
 }
 
 TransactionHistory.propTypes = {
-  items: PropTypes.objectOf(PropTypes.exact({
+  items: PropTypes.arrayOf(PropTypes.exact({
     id: PropTypes.string.isRequired,
     type: PropTypes.string.isRequired,
     amount: PropTypes.string.isRequired,

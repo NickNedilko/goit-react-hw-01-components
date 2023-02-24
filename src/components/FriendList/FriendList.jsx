@@ -13,10 +13,11 @@ function FriendList({friends}){
 }
 
 FriendList.propTypes = {
-  friends: PropTypes.objectOf(PropTypes.exact({
+  friends: PropTypes.arrayOf(PropTypes.exact({
     id: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
-    avatar: PropTypes.string.isRequired
+    avatar: PropTypes.string.isRequired, 
+    isOnline: PropTypes.bool,
   }))
 };
 
