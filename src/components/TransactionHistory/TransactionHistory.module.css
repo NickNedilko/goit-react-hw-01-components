@@ -1,0 +1,24 @@
+.table{
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 32px;
+    border-color: #e5e5e5;
+}
+
+.thead{
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: blueviolet;
+}
+
+.row{
+  background-color: #d6d0d0; 
+  text-align: center;
+  height: 30px;
+}
+
+.row:nth-child(2n){
+    background-color: #faf7f2;
+}
