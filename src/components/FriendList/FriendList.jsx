@@ -1,6 +1,6 @@
 import { PropTypes } from 'prop-types';
 import { List, Friends, FriendName, Avatar, Status } from './Friend.styled';
-// import css from './FriendList.module.css'
+
 
 function FriendList({friends}){
     return <List>
