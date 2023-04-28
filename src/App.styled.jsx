@@ -1,6 +1,5 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
-
-export const Ap =styled.div`
-padding:50px;
-` 
+export const Wrapper = styled.div`
+  padding: 50px;
+`;
